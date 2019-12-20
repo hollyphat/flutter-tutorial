@@ -15,15 +15,8 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text(
-          "Hello Ninjas!",
-          style: TextStyle(
-              fontSize: 20,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 2,
-              color: Colors.grey[600],
-              fontFamily: 'IndieFlower'
-          ),
+        child: Image(
+          image: NetworkImage("https://www.foodlocker.com.ng/images/shop_to_drop.png"),
         ),
       ),
       floatingActionButton: FloatingActionButton(

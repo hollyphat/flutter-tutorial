@@ -18,6 +18,10 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Expanded(
             flex: 3,
+            child: Image.asset("assets/macbookpro.png")
+          ),
+          Expanded(
+            flex: 3,
             child: Container(
               padding: EdgeInsets.all(30.0),
               color: Colors.cyan,

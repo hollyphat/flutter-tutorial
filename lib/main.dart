@@ -15,7 +15,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image.asset("assets/macbook-1.jpg"),
+        child: FlatButton(
+          onPressed: () {},
+          child: Text("Click Me"),
+          color: Colors.lightBlue,
+        )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},

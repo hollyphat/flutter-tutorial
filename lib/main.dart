@@ -16,11 +16,9 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: IconButton(
-          icon: Icon(
-            Icons.print,
-            color: Colors.red[300],
-          ),
-          onPressed: () {}
+          icon: Icon(Icons.print),
+          onPressed: () {},
+          color: Colors.red[300],
         )
       ),
       floatingActionButton: FloatingActionButton(

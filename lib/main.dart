@@ -16,11 +16,11 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: RaisedButton.icon(
-            onPressed: (){},
-            icon: Icon(
-              Icons.file_download
-            ),
-            label: Text("Download now"),
+          onPressed: (){},
+          icon: Icon(
+             Icons.file_download
+          ),
+          label: Text("Download now"),
           color: Colors.lightBlueAccent,
           textColor: Colors.white,
         )

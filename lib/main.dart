@@ -16,7 +16,8 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: Image(
-          image: NetworkImage("https://www.foodlocker.com.ng/images/shop_to_drop.png"),
+          //image: NetworkImage("https://www.foodlocker.com.ng/images/shop_to_drop.png"),
+          image: AssetImage("assets/macbookpro.png"),
         ),
       ),
       floatingActionButton: FloatingActionButton(

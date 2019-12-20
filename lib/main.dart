@@ -20,7 +20,9 @@ class Home extends StatelessWidget {
             icon: Icon(
               Icons.file_download
             ),
-            label: Text("Download now")
+            label: Text("Download now"),
+          color: Colors.lightBlueAccent,
+          textColor: Colors.white,
         )
       ),
       floatingActionButton: FloatingActionButton(

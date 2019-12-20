@@ -16,9 +16,12 @@ class Home extends StatelessWidget {
       ),
       body: Center(
         child: FlatButton(
-          onPressed: () {},
+          onPressed: () {
+            print("You clicked me!");
+          },
           child: Text("Click Me"),
           color: Colors.lightBlue,
+          textColor: Colors.white,
         )
       ),
       floatingActionButton: FloatingActionButton(

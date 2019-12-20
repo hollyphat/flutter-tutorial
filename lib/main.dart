@@ -15,14 +15,12 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: RaisedButton.icon(
-          onPressed: (){},
+        child: IconButton(
           icon: Icon(
-             Icons.file_download
+            Icons.print,
+            color: Colors.red[300],
           ),
-          label: Text("Download now"),
-          color: Colors.lightBlueAccent,
-          textColor: Colors.white,
+          onPressed: () {}
         )
       ),
       floatingActionButton: FloatingActionButton(

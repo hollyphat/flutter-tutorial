@@ -15,10 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image(
-          //image: NetworkImage("https://www.foodlocker.com.ng/images/shop_to_drop.png"),
-          image: AssetImage("assets/macbookpro.png"),
-        ),
+        child: Image.asset("assets/macbook-1.jpg"),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
